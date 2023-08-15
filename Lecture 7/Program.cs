@@ -19,10 +19,28 @@ namespace Lecture_7
         static void Main(string[] args)
         {
             //DemoArrayStack();
-            //DemoDynamicStack();
-            //DemoArrayQueue();
+            DemoDynamicStack();
+            DemoArrayQueue();
             DemoDynamicQueue();
             DemoEquationAnalyzer();
+
+            //string str = "e*i(e*i*0)+e(u-t(u*u))";
+            //int opening = 0;
+            //int closing = 0;
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    if (str[i] == '(')
+            //    {
+            //        opening++;
+            //    }
+            //    else if (str[i] == ')')
+            //    {
+            //        closing++;
+            //    }
+            //}
+            //Console.WriteLine("Total opening brackets: " + opening);
+            //Console.WriteLine("Total closing brackets: " + closing);
+
 
             Console.ReadKey();
         }

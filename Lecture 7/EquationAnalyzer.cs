@@ -9,11 +9,6 @@ namespace Lecture_7
     internal class EquationAnalyzer
     {
 
-        public static void main(string[] args)
-        {
-            
-        }
-
         public static bool AreParenthesisBalanced(string equation)
         {
             bool balanced = false;
@@ -39,6 +34,5 @@ namespace Lecture_7
             }
             return balanced;
         }
-
     }
 }

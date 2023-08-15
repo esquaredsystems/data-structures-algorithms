@@ -13,12 +13,11 @@ namespace Lecture_3
         {
             Sorting obj = new Sorting();
             // obj.BubbleSort(new int[] { 2, 8, 5, 3, 9, 4, 1 });
-            // obj.SelectionSort(new int[] { 2, 8, 5, 3, 9, 4, 1 });
-            // obj.InsertionSort(new int[] { 2, 8, 5, 3, 9, 4, 1 });
-            obj.SelectionSort(new int[] { 6,5,0,7,3 });
+            obj.SelectionSort(new int[] { 6, 5, 4, 3, 2, 1 });
+            // obj.InsertionSort(new int[] { 6, 5, 4, 3, 2, 1 });
             Console.ReadKey();
         }
-        
+
         public int[] BubbleSort(int[] array)
         {
             // Repeat for index 1 to n-1
@@ -37,7 +36,7 @@ namespace Lecture_3
                         int temp = array[j];
                         array[j] = array[j + 1];
                         array[j + 1] = temp;
-                        Console.WriteLine("Swapping " + array[j] + " with " + array[j + 1]);
+                        Console.WriteLine($"At [i, j]: [{i}, {j}], swapping {array[j]} with {array[j + 1]}");
                     }
                 }
                 Console.WriteLine();
@@ -67,7 +66,7 @@ namespace Lecture_3
                     int temp = array[i];
                     array[i] = array[indexOfMin];
                     array[indexOfMin] = temp;
-                    Console.WriteLine("On i=" + i + "; indexOfMin=" + indexOfMin + " Swapping " + array[i] + " with " + array[indexOfMin]);
+                    Console.WriteLine($"At [i, j]: [{i}, {indexOfMin}], swapping {array[i]} with {array[indexOfMin]}");
                 }
             }
             return array;
@@ -85,7 +84,7 @@ namespace Lecture_3
                         int temp = array[j];
                         array[j] = array[j - 1];
                         array[j - 1] = temp;
-                        Console.WriteLine("Swapping " + array[j] + " with " + array[j - 1]);
+                        Console.WriteLine($"At [i, j]: [{i}, {j}], swapping {array[j]} with {array[j - 1]}");
                     }
                     j--;
                 }
