@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 9", "Lecture 9\Lect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 10", "Lecture 10\Lecture 10.csproj", "{EEA6C847-35E6-4A8C-89F2-EFC34982DAF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 11", "Lecture 11\Lecture 11.csproj", "{AF900A6D-6AA4-4DC9-970C-5DD738DF6E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 12", "Lecture 12\Lecture 12.csproj", "{E1EB1420-5813-412B-9917-CD70E091C106}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{EEA6C847-35E6-4A8C-89F2-EFC34982DAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEA6C847-35E6-4A8C-89F2-EFC34982DAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEA6C847-35E6-4A8C-89F2-EFC34982DAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF900A6D-6AA4-4DC9-970C-5DD738DF6E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF900A6D-6AA4-4DC9-970C-5DD738DF6E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF900A6D-6AA4-4DC9-970C-5DD738DF6E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF900A6D-6AA4-4DC9-970C-5DD738DF6E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EB1420-5813-412B-9917-CD70E091C106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EB1420-5813-412B-9917-CD70E091C106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EB1420-5813-412B-9917-CD70E091C106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EB1420-5813-412B-9917-CD70E091C106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

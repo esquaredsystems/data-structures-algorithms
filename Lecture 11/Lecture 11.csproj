@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EEA6C847-35E6-4A8C-89F2-EFC34982DAF6}</ProjectGuid>
+    <ProjectGuid>{AF900A6D-6AA4-4DC9-970C-5DD738DF6E90}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lecture_10</RootNamespace>
-    <AssemblyName>Lecture 10</AssemblyName>
+    <RootNamespace>Lecture_11</RootNamespace>
+    <AssemblyName>Lecture 11</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
